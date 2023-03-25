@@ -26,7 +26,7 @@ Deadly_Button = [
         Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/zadkiel_network")
         ],
         [
-        Button.url("• Rᴇᴘᴏ •", "https://github.com/Moca96/DEADLY-SPAMBOThttps://github.com/Moca96/DEADLY-SPAMBOT")
+        Button.url("• Rᴇᴘᴏ •", "https://github.com/Moca96/DEADLY-SPAMBOTT")
         ]
         ]
         
