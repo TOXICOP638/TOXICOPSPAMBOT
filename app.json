@@ -88,11 +88,6 @@
             "description": "owner Id",
             "value": "",
             "required": true
-        },
-      "SUDO_USER": {  
-            "description": "sudo id",
-            "value": "",
-            "required": true
     },
   "stack": "heroku-20",
   "buildpacks": [
