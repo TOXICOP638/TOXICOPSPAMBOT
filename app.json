@@ -85,12 +85,17 @@
         "required": true
       },
       "OWNER_ID": {
-            "description": "owner Id",
-            "value": "",
-            "required": true
-        }
+        "description": "owner Id",
+        "value": "",
+        "required": true
+      },
+      "SUDO_USER": {
+        "description": "Put Ids Here.",
+        "required": true
+      },         
+      
     },
-  "stack": "heroku-20",
+  "stack": "container",
   "buildpacks": [
         {
             "url": "heroku/python"
