@@ -1,5 +1,11 @@
-# DEADLY-SPAMBOTT
+# ᴅᴇᴘʟᴏʏᴍᴇɴᴛ
 
 
+<details>
+<summary><b>ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ</b></summary>
+<br>
 
-https://dashboard.Heroku.com/new?template=https://github.com/Moca96/DEADLY-SPAMBOTT
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/TOXICOP638/TOXICOPSPAMBOT)
+  
+</details>
+
