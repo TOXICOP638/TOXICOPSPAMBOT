@@ -1,6 +1,6 @@
 
 {
-    "name": "Deadly Spam Bot",
+    "name": "TOXIC SPAMBOT",
     "description": "MOST POWERFUL + STABLE SPAMBOTS",
     "logo": "https://te.legra.ph/file/84ad5652688b46626164e.jpg",
     "keywords": [
@@ -10,9 +10,9 @@
         "deadlybot",
         "SpamBots"
     ],
-    "repository": "https://t.me/Deadly-Fighters",
-    "website": "https://t.me/Deadly-Fighters",
-    "success_url": "https://t.me/deadly-fighters",
+    "repository": "https://t.me/TCF_OFFICIAL",
+    "website": "https://t.me/TCF_OFFICIAL",
+    "success_url": "https://t.me/TCF_OFFICIAL",
     "env": {
              "API_ID": {
         "description": "Fill Api ID Take this value from My.telegram.org",
