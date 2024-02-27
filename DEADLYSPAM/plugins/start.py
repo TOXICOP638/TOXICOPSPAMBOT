@@ -10,7 +10,7 @@ ALIVE_IMG = config.ALIVE_PIC
 if config.ALIVE_PIC:
     DEADLY_IMG = ALIVE_IMG
 else:
-    DEADLY_IMG = "https://telegra.ph/file/8626de483836d15f8f63c.jpg"
+    DEADLY_IMG = "https://telegra.ph/file/1b04a4a84ad51aa9887a2.jpg"
 
 OWNER_INFO = config.OWNER_NAME
 if config.OWNER_NAME:
@@ -22,11 +22,11 @@ OWNER_ID = config.OWNER_ID
 
 Deadly_Button = [
         [
-        Button.url("Cʜᴀɴɴᴇʟ", "https://t.me/friends_zone3"),
-        Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/zadkiel_network")
+        Button.url("Cʜᴀɴɴᴇʟ", "https://t.me/HEROKU_CC_STORE"),
+        Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/TCF_OFFICIAL")
         ],
         [
-        Button.url("• Rᴇᴘᴏ •", "https://github.com/Moca96/DEADLY-SPAMBOTT")
+        Button.url("• Rᴇᴘᴏ •", "https://telegra.ph/file/1b04a4a84ad51aa9887a2.jpg")
         ]
         ]
         
@@ -50,7 +50,7 @@ async def start(e):
         user_id = e.sender_id
         mention = f"[{name}](tg://user?id={user_id})"
         myOwner = f"[{OWNER_NAME}](tg://user?id={OWNER_ID})"
-        creator = f"[🇲 🇴 🇨 🇦](tg://user?id={5486520312})"
+        creator = f"[🇮🇳❍⏤‌•꯭꯭𝙈𝙍 𓄂𝙏𝙊✘𝙄𝘾᭄ 𓆪ꪾ°‌⋆➴🕊️⃝👑؛ًٍَُّْ𝅯𝅯۪ؒؒؒؒؒؒؒؒؒؒؒؒؒؒؒؒؒؒؒؒؒؒؒؒ](tg://user?id={2098156022})"
         DEADLY_ON = f"""
 ʜᴇʏ {mention},
 ᴛʜɪs ɪs ᴅᴇᴀᴅʟʏ sᴘᴀᴍʙᴏᴛ ᴘᴏᴡᴇʀᴇᴅ ʙʏ:- {creator}!
