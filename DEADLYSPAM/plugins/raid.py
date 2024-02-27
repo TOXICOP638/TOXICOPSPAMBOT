@@ -39,13 +39,13 @@ async def spam(e):
             a = await e.client.get_entity(user)
             g = a.id
             if int(g) in DEADLYSPAM:
-                text = f"» ᴄᴀɴɴᴏᴛ ʀᴀɪᴅ ᴏɴ ᴅᴇᴀᴅʟʏ ᴄʀᴇᴀᴛᴏʀ !"
+                text = f"» ɪꜱɴᴇ ʜɪ ʙɴᴀʏᴀ ʜᴀɪ ɪꜱᴘᴇ ɴᴀʜɪ ᴋᴀʀ👀😂 !"
                 await e.reply(text)
             elif int(g) == config.OWNER_ID:
-                text = f"» ɪ  ᴄᴀɴɴᴏᴛ ʀᴀɪᴅ ᴏɴ ᴍʏ ᴏᴡɴᴇʀ  !"
+                text = f"» ʜᴀᴛᴛ ʙꜱᴅᴋᴇ 😂  !"
                 await e.reply(text)
             elif int(g) in SUDOERS:
-                text = f"» ᴄᴀɴɴᴏᴛ ʀᴀɪᴅ ᴏɴ ꜱᴜᴅᴏᴇʀ !"
+                text = f"» ʏᴇ ᴍᴀᴀʟɪᴋ ᴋᴇ ꜱᴀᴛʜ ʜᴀɪ ɪɴᴘᴇ ᴋᴀɪꜱᴇ ᴋᴀʀᴜ 🥲😂 !"
                 await e.reply(text) 
             else:
                 c = a.first_name
@@ -62,13 +62,13 @@ async def spam(e):
             b = await e.client.get_entity(a.sender_id)
             g = b.id
             if int(g) in DEADLYSPAM:
-                text = f"» ᴄᴀɴɴᴏᴛ ʀᴀɪᴅ ᴏɴ ᴅᴇᴀᴅʟʏ ᴄʀᴇᴀᴛᴏʀ !"
+                text = f"» ɪꜱɴᴇ ʜɪ ʙɴᴀʏᴀ ʜᴀɪ ɪꜱᴘᴇ ɴᴀʜɪ ᴋᴀʀ👀😂 !"
                 await e.reply(text)
             elif int(g) == config.OWNER_ID:
-                text = f"» ɪ  ᴄᴀɴɴᴏᴛ ʀᴀɪᴅ ᴏɴ ᴍʏ ᴏᴡɴᴇʀ  !"
+                text = f"» ʜᴀᴛᴛ ʙꜱᴅᴋᴇ 😂  !"
                 await e.reply(text)
             elif int(g) in SUDOERS:
-                text = f"» ᴄᴀɴɴᴏᴛ ʀᴀɪᴅ ᴏɴ ꜱᴜᴅᴏᴇʀ !"
+                text = f"» ʏᴇ ᴍᴀᴀʟɪᴋ ᴋᴇ ꜱᴀᴛʜ ʜᴀɪ ɪɴᴘᴇ ᴋᴀɪꜱᴇ ᴋᴀʀᴜ 🥲😂 !"
                 await e.reply(text)
             else:
                 c = b.first_name
@@ -132,20 +132,20 @@ async def _(e):
             user_idd = a.id
             user_id = int(user_idd)
             if int(user_id) in DEADLYSPAM:
-                text = f"**» ᴄᴀɴɴᴏᴛ ʀᴀɪᴅ ᴏɴ ᴅᴇᴀᴅʟʏ ᴄʀᴇᴀᴛᴏʀ !**"
+                text = f"**» ɪꜱɴᴇ ʜɪ ʙɴᴀʏᴀ ʜᴀɪ ɪꜱᴘᴇ ɴᴀʜɪ ᴋᴀʀ👀😂 !**"
                 await e.reply(text)
             elif int(user_id) == config.OWNER_ID:
-                text = f"» ɪ  ᴄᴀɴɴᴏᴛ ʀᴀɪᴅ ᴏɴ ᴍʏ ᴏᴡɴᴇʀ  !"            
+                text = f"» ʜᴀᴛᴛ ʙꜱᴅᴋᴇ 😂  !"            
                 await event.reply(text)
             elif int(user_id) in SUDOERS:
-                text = f"» ᴄᴀɴɴᴏᴛ ʀᴀɪᴅ ᴏɴ ꜱᴜᴅᴏᴇʀ !"
+                text = f"» ʏᴇ ᴍᴀᴀʟɪᴋ ᴋᴇ ꜱᴀᴛʜ ʜᴀɪ ɪɴᴘᴇ ᴋᴀɪꜱᴇ ᴋᴀʀᴜ 🥲😂 !"
                 await e.reply(text)
             else:
                 que[user_id] = []
                 gey = que.get(user_id)
                 phucker = [user_id]
                 gey.append(phucker)
-                text = f"**ʀᴇᴘʟʏʀᴀɪᴅ ᴀᴄᴛɪᴠᴀᴛᴇᴅ** !"
+                text = f"**ᴋɪᴅᴅ ᴀʙ ᴋᴀʀ ᴍᴀᴊᴅᴏᴏʀɪ 🥴🥴** !"
                 await e.reply(text)
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -153,20 +153,20 @@ async def _(e):
             user_idd = umser.id
             user_id = int(user_idd)
             if int(user_id) in DEADLYSPAM:
-                text = f" » ᴄᴀɴɴᴏᴛ ʀᴀɪᴅ ᴏɴ ᴅᴇᴀᴅʟʏ ᴄʀᴇᴀᴛᴏʀ !"
+                text = f" » ɪꜱɴᴇ ʜɪ ʙɴᴀʏᴀ ʜᴀɪ ɪꜱᴘᴇ ɴᴀʜɪ ᴋᴀʀ👀😂 !"
                 await e.reply(text)
             elif int(user_id) == config.OWNER_ID:
-                text = f"» ɪ  ᴄᴀɴɴᴏᴛ ʀᴀɪᴅ ᴏɴ ᴍʏ ᴏᴡɴᴇʀ !"
+                text = f"» ʜᴀᴛᴛ ʙꜱᴅᴋᴇ 😂 !"
                 await event.reply(text)
             elif int(user_id) in SUDOERS:
-                text = f"» ᴄᴀɴɴᴏᴛ ʀᴀɪᴅ ᴏɴ ꜱᴜᴅᴏᴇʀ !"
+                text = f"» ʏᴇ ᴍᴀᴀʟɪᴋ ᴋᴇ ꜱᴀᴛʜ ʜᴀɪ ɪɴᴘᴇ ᴋᴀɪꜱᴇ ᴋᴀʀᴜ 🥲😂 !"
                 await e.reply(text)
             else:
                 que[user_id] = []
                 gey = que.get(user_id)
                 phucker = [user_id]
                 gey.append(phucker)
-                text = f"**ʀᴇᴘʟʏʀᴀɪᴅ ᴀᴄᴛɪᴠᴀᴛᴇᴅ** !"
+                text = f"**ᴋɪᴅᴅ ᴀʙ ᴋᴀʀ ᴍᴀᴊᴅᴏᴏʀɪ 🥴🥴** !"
                 await e.reply(text)
         else:
             await e.reply(usage)
@@ -210,7 +210,7 @@ async def _(e):
                 queue.pop(0)
             except Exception as f:
                 pass
-            text = "**ʀᴇᴘʟʏʀᴀɪᴅ ᴅᴇ-ᴀᴄᴛɪᴠᴀᴛᴇᴅ** !"
+            text = "**ᴋɪᴅᴅ ᴋᴀʟᴀᴘ ᴋᴇ ꜱɪᴅᴇ ʙᴇᴛʜ ɢʏᴇ 🤤🤤** !"
             await e.reply(text)
         else:
             await e.reply(usage)
@@ -236,13 +236,13 @@ async def _(event):
              a = await event.client.get_entity(user)
              e = a.id
              if int(e) in DEADLYSPAM:
-                 text = f"**» ᴄᴀɴɴᴏᴛ ʀᴀɪᴅ ᴏɴ ᴅᴇᴀᴅʟʏ ᴄʀᴇᴀᴛᴏʀ !**"
+                 text = f"**» ɪꜱɴᴇ ʜɪ ʙɴᴀʏᴀ ʜᴀɪ ɪꜱᴘᴇ ɴᴀʜɪ ᴋᴀʀ !**"
                  await event.reply(text)
              elif int(e) == config.OWNER_ID:
-                 text = f"**» ɪ  ᴄᴀɴɴᴏᴛ ʀᴀɪᴅ ᴏɴ ᴍʏ ᴏᴡɴᴇʀ  !**"
+                 text = f"**» ʜᴀᴛᴛ ʙꜱᴅᴋᴇ  !**"
                  await event.reply(text)
              elif int(e) in SUDOERS:
-                 text = f"ᴄᴀɴɴᴏᴛ ʀᴀɪᴅ ᴏɴ ꜱᴜᴅᴏᴇʀ"
+                 text = f"ʏᴇ ᴍᴀᴀʟɪᴋ ᴋᴇ ꜱᴀᴛʜ ʜᴀɪ ɪɴᴘᴇ ᴋᴀɪꜱᴇ ᴋᴀʀᴜ"
                  await event.reply(text)
              else:
                  c = a.first_name
@@ -260,13 +260,13 @@ async def _(event):
                b = await event.client.get_entity(a.sender_id)
                e = b.id
                if int(e) in DEADLYSPAM:
-                   text = f"**» ᴄᴀɴɴᴏᴛ ʀᴀɪᴅ ᴏɴ ᴅᴇᴀᴅʟʏ ᴄʀᴇᴀᴛᴏʀ !**"
+                   text = f"**» ɪꜱɴᴇ ʜɪ ʙɴᴀʏᴀ ʜᴀɪ ɪꜱᴘᴇ ɴᴀʜɪ ᴋᴀʀ !**"
                    await event.reply(text)
                elif int(e) == config.OWNER_ID:
-                   text = f"**» ɪ  ᴄᴀɴɴᴏᴛ ʀᴀɪᴅ ᴏɴ ᴍʏ ᴏᴡɴᴇʀ  !**"
+                   text = f"**» ʜᴀᴛᴛ ʙꜱᴅᴋᴇ  !**"
                    await event.reply(text)
                elif int(e) in SUDOERS:
-                   text = f"ᴄᴀɴɴᴏᴛ ʀᴀɪᴅ ᴏɴ ꜱᴜᴅᴏᴇʀ"
+                   text = f"ʏᴇ ᴍᴀᴀʟɪᴋ ᴋᴇ ꜱᴀᴛʜ ʜᴀɪ ɪɴᴘᴇ ᴋᴀɪꜱᴇ ᴋᴀʀᴜ"
                    await event.reply(text)
                else:
                    c = b.first_name
@@ -305,13 +305,13 @@ async def spam(e):
             a = await e.client.get_entity(user)
             g = a.id
             if int(g) in DEADLYSPAM:
-                text = f"**» ᴄᴀɴɴᴏᴛ ʀᴀɪᴅ ᴏɴ ᴅᴇᴀᴅʟʏ ᴄʀᴇᴀᴛᴏʀ !**"
+                text = f"**» ᴀᴀᴊ ɴᴀʜɪ ʜᴀɪ ʙɪʀᴛʜᴅᴀʏ ʙᴀʙʏ 🥴 !**"
                 await e.reply(text)
             elif int(g) == config.OWNER_ID:
-                text = f"**» ɪ  ᴄᴀɴɴᴏᴛ ʀᴀɪᴅ ᴏɴ ᴍʏ ᴏᴡɴᴇʀ  !**"
+                text = f"**» ᴀᴀᴊ ɴᴀʜɪ ʜᴀɪ ʙɪʀᴛʜᴅᴀʏ ʙᴀʙʏ 🥴  !**"
                 await e.reply(text)
             elif int(g) in SUDOERS:
-                text = f"ᴄᴀɴɴᴏᴛ ʀᴀɪᴅ ᴏɴ ꜱᴜᴅᴏᴇʀ"
+                text = f"ɪꜱᴋᴀ ʙʜɪ ɴᴀʜɪ ᴘᴛᴀ ᴛᴏ ᴍᴛʟʙ ɴᴀʜɪ ᴘᴛᴀ 🤏😂"
                 await e.reply(text)
             else:
                 c = a.first_name
@@ -328,13 +328,13 @@ async def spam(e):
             b = await e.client.get_entity(a.sender_id)
             g = b.id
             if int(g) in DEADLYSPAM:
-                text = f"**» ᴄᴀɴɴᴏᴛ ʀᴀɪᴅ ᴏɴ ᴅᴇᴀᴅʟʏ ᴄʀᴇᴀᴛᴏʀ !**"
+                text = f"**» ᴀᴀᴊ ɴᴀʜɪ ʜᴀɪ ʙɪʀᴛʜᴅᴀʏ ʙᴀʙʏ 🥴 !**"
                 await e.reply(text)
             elif int(g) == config.OWNER_ID:
-                text = f"**» ɪ  ᴄᴀɴɴᴏᴛ ʀᴀɪᴅ ᴏɴ ᴍʏ ᴏᴡɴᴇʀ  !**"
+                text = f"**» ᴀᴀᴊ ɴᴀʜɪ ʜᴀɪ ʙɪʀᴛʜᴅᴀʏ ʙᴀʙʏ 🥴  !**"
                 await e.reply(text)
             elif int(g) in SUDOERS:
-                text = f"ᴄᴀɴɴᴏᴛ ʀᴀɪᴅ ᴏɴ ꜱᴜᴅᴏᴇʀ"
+                text = f"ɪꜱᴋᴀ ʙʜɪ ɴᴀʜɪ ᴘᴛᴀ ᴛᴏ ᴍᴛʟʙ ɴᴀʜɪ ᴘᴛᴀ 🤏😂"
                 await e.reply(text)
             else:
                 c = b.first_name
