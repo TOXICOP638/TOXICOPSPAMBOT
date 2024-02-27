@@ -29,15 +29,15 @@ async def _(event):
         if len(event.text) > 7:
             bc = deadly[0]
             Xd = int(bc)           
-            blaze = await event.reply("**ʟᴇᴀᴠᴇ ᴄᴏᴍᴍᴀɴᴅ ʀᴇᴄᴇɪᴠᴇᴅ 🥺**")
+            blaze = await event.reply("**ᴄᴍɴᴅꜱ ᴅᴀᴀʟ ᴋʀ ɢʟᴛɪ ᴋᴀʀᴅɪ 🥺**")
             try:
                 await event.client(LeaveChannelRequest(Xd))
-                await blaze.edit("**» ꜱᴘᴀᴍᴍᴇʀꜱ ʟᴇғᴛ ᴛʜᴇ ᴄʜᴀᴛ**")
+                await blaze.edit("**» ꜰɪʀ ᴍɪʟᴇɴɢᴇ 😈**")
             except Exception as e:
                 await event.edit(str(e))   
         if event.is_private:
-            await event.reply(f**"» ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ᴏɴʟʏ ᴍᴀᴅᴇ ғᴏʀ ɢʀᴏᴜᴘ!**") 
+            await event.reply(f**"» ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ᴏɴʟʏ ʙᴋᴄʜᴏᴅᴇʀ ʟᴏɢ 🥴😂!**") 
         else:
             await event.reply(usage, parse_mode=None, link_preview=None)   
     else:
-        await event.reply("**ᴅᴇᴘʟᴏʏ ʏᴏᴜʀ ᴏᴡɴ ᴅᴇᴀᴅʟʏ-ꜱᴘᴀᴍʙᴏᴛ!**") 
+        await event.reply("**ʙɴᴀʏᴇɢᴀ ᴋʏᴀ ᴀᴘɴᴇ ʙᴀᴀᴘ ᴊᴀɪꜱᴀ ʙᴏᴛ 🥴🥴😂!**") 
